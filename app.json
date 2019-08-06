@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "React Cross-Platform Demo",
+    "slug": "react-cross-platform-demo",
+    "description": "React Cross Platform Todo List",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": ["ios", "android"],
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "android": {
+      "package": "com.moviendome.reactdemo"
+    },
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icons/icon.png",
+    "splash": {
+      "image": "./assets/icons/loading.png"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
